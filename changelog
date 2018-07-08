@@ -43,3 +43,11 @@
 
 - Se modificó el archivo "main/urls.py" para incluir las urls de la app "contacto".
 - Se modificó el archivo "contacto/views.py" para incluir la vista principal.
+
+# Version 0.5 - 08/07/2018
+
+** Modificado **
+
+- Se modificó el archivo "contacto/templates/vista_contacto/contacto.html" agregando el contenido y un footer.
+- Se modificó el archivo "contacto/static/vista_contacto/estilo.css" para modificar la app.
+
