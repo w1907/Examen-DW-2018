@@ -2,3 +2,45 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+.logotipo-titulo{
+	display: inline-flex;
+}
+
+.logotipo-titulo .logotipo-unab{
+	align-self: center;
+	margin-right: 5px;
+}
+
+.logotipo-titulo .titulo-unab{
+	text-align: center;
+}
+
+.imagen-fondo{
+	margin-top: 5px;
+}
+
+.titulo-contacto{
+	font-family: times;
+	font-style: oblique;
+}
+
+.Contacto-span{
+	font-size: 40px;
+}
+
+.ICINF-span{
+	font-size: 20px;
+	color: grey;
+}
+
+footer{
+	text-align: center;
+	padding: 15px;
+}
+
+footer p{
+	font-size: 30px;
+	font-family: times;
+	font-weight: normal;
+}
