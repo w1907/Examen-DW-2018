@@ -1,6 +1,18 @@
-# Versión 0.1 - 08/07/2014
+# Versión 0.1 - 08/07/2018
 
 ** Agregado **
 
 - Se inicializó el entorno de trabajo.
 - Se agregó el super usuario: username: panxo password: 123456789f
+
+# Versión 0.2 - 08/07/2018
+
+** Agregado **
+
+- Se agregó la aplicación "contacto".
+- Se creó el modelo "ContactoUsuario".
+- Se registró el modelo para la vista de administrador.
+
+** Modificado **
+
+- Se modificó la fecha del changelog a 2018 (error de tipeo).
