@@ -16,3 +16,17 @@
 ** Modificado **
 
 - Se modificó la fecha del changelog a 2018 (error de tipeo).
+
+# Versión 0.3 - 08/07/2018
+
+** Agregado **
+
+- Se agregó la carpeta "imagenes" para utilizar en la base de datos.
+- Se agregó la carpeta "media" que se crea al momento de subir una imagen en la base de datos.
+- Se agregó contactos en la base de datos.
+
+** Modificado **
+
+- Se modificó el archivo "main/settings.py" para agregar la app "contacto" y "bootstrap4".
+- Se modificó el archivo "main/settings.py" para agregar la carpeta "media".
+- Se modificó el archivo "main/urls.py" para agregar la url de la carpeta "media".
