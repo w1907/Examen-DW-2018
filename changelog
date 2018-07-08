@@ -30,3 +30,16 @@
 - Se modificó el archivo "main/settings.py" para agregar la app "contacto" y "bootstrap4".
 - Se modificó el archivo "main/settings.py" para agregar la carpeta "media".
 - Se modificó el archivo "main/urls.py" para agregar la url de la carpeta "media".
+
+# Version 0.4 - 08/07/2018
+
+** Agregado **
+
+- Se agregó la carpeta "static" para multimedia estatica dentro de la vista.
+- Se agregó dentro de la carpeta "static" la carpeta "templates" y "image".
+- Se agregó el archivo "contacto/urls.py" para redireccionar las vistas.
+
+** Modificado **
+
+- Se modificó el archivo "main/urls.py" para incluir las urls de la app "contacto".
+- Se modificó el archivo "contacto/views.py" para incluir la vista principal.

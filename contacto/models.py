@@ -1,7 +1,5 @@
 from django.db import models
 
-from django.db import models
-
 class ContactoUsuario(models.Model):
 	nombre = models.CharField(max_length=45, null=False, blank=False)
 	apellido = models.CharField(max_length=45, null=False, blank=False)
