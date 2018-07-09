@@ -2,3 +2,94 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+.logotipo-titulo{
+	display: inline-flex;
+}
+
+.logotipo-titulo .logotipo-unab{
+	align-self: center;
+	margin-right: 5px;
+}
+
+.logotipo-titulo .titulo-unab{
+	text-align: center;
+}
+
+.imagen-perfil{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#img-perfil{
+	align-self: center;
+}
+
+.informacion-contacto{
+	padding: 15px;
+}
+
+.informacion-contacto .lista-informacion-usuario{
+	list-style-type: disc;
+}
+
+.informacion-contacto .lista-informacion-usuario .titulo-informacion-contacto{
+	font-size: 20px;
+	font-family: times;
+	font-weight: normal;
+}
+
+.informacion-contacto .lista-informacion-usuario li{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.informacion-contacto .lista-informacion-usuario label{
+	font-size: 17px;
+	font-weight: normal;
+	font-family: times;
+	font-style: oblique;
+}
+
+.informacion-contacto .lista-informacion-usuario a{
+	font-size: 17px;
+	font-weight: normal;
+	font-family: times;
+	font-style: oblique;
+}
+
+.informacion-contacto .formulario-contacto-usuario button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.informacion-contacto .formulario-contacto-usuario .botones{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+footer{
+	text-align: center;
+	padding: 15px;
+}
+footer p{
+	font-size: 30px;
+	font-family: times;
+	font-weight: normal;
+}
+
+@media screen and (min-width: 992px){
+	.mapa-iframe{
+		display: flex;
+		justify-content: center;
+		align-self: center;
+	}
+
+	#img-perfil{
+		width: 100%;
+	}
+}

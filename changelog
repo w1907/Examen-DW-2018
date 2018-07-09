@@ -63,3 +63,10 @@
 - Se modificó el archivo "contacto/urls.py" para incluir la vista de detalles.
 - Se modificó el archivo "contacto/views.py" para incluir la vista de detalles.
 - Se modificó el archivo "main/settings.py" para incluir la app sorl-thumbnail.
+
+# Version 0.5.2 - 08/07/2018
+
+** Modificado **
+
+- Se modificó el archivo "contacto/static/vista_contacto_detalle/estilo.css" para modificar la app.
+- Se modificó el archivo "contacto/templates/vista_contacto_detalle/contacto_detalle.html" arreglos menores. 
