@@ -69,4 +69,8 @@
 ** Modificado **
 
 - Se modificó el archivo "contacto/static/vista_contacto_detalle/estilo.css" para modificar la app.
-- Se modificó el archivo "contacto/templates/vista_contacto_detalle/contacto_detalle.html" arreglos menores. 
+- Se modificó el archivo "contacto/templates/vista_contacto_detalle/contacto_detalle.html" arreglos menores.
+
+# Version 0.5.3 - 08/07/2018
+
+- Se modificó el archivo "contacto/templates/vista_contacto/contacto.html" para poder visualizar a todos los registros de la base de datos. 

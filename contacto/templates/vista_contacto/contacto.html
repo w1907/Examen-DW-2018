@@ -49,6 +49,7 @@
       </div>
       <div class="table-responsive-sm tabla-contacto">
         <table class="table">
+          {% if object_list %}
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -59,13 +60,18 @@
             </tr>
           </thead>
           <tbody>
+            {% for contacto in object_list %}
             <tr>
-              <th scope="row">1</th>
-              <td><a href="#">Fulano</a></td>
-              <td>Fulano</td>
-              <td>123</td>
-              <td><a class="btn btn-primary" href="#">>Ver detalles</a></td>
+              <th scope="row">{{ contacto.pk }}</th>
+              <td><a href="{% url 'contacto.detail' contacto.pk %}">{{ contacto.nombre }}</a></td>
+              <td>{{ contacto.apellido }}</td>
+              <td>{{ contacto.telefono }}</td>
+              <td><a class="btn btn-primary" href="{% url 'contacto.detail' contacto.pk %}">>Ver detalles</a></td>
             </tr>
+            {% endfor %}
+            {% else %}
+            <h1>No hay registros</h1>
+            {% endif %}
           </tbody>
         </table>
       </div>
