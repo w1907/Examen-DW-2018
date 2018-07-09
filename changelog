@@ -74,3 +74,9 @@
 # Version 0.5.3 - 08/07/2018
 
 - Se modificó el archivo "contacto/templates/vista_contacto/contacto.html" para poder visualizar a todos los registros de la base de datos. 
+
+# Version 0.5.4 - 08/07/2018
+
+** Modifico **
+
+- Se traslado una imagen de la carpeta "imagenes" hacia "contacto/static/image".
