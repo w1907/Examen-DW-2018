@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'contacto',
     'bootstrap4',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [

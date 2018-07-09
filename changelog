@@ -51,3 +51,15 @@
 - Se modificó el archivo "contacto/templates/vista_contacto/contacto.html" agregando el contenido y un footer.
 - Se modificó el archivo "contacto/static/vista_contacto/estilo.css" para modificar la app.
 
+# Version 0.5.1 - 08/07/2018
+
+** Agregado **
+
+- Se agregó el template "vista_contacto_detalle/contacto_detalle.html"
+- Se agregó el static "vista_contacto_detalle/estilo.css"
+
+** Modificado **
+
+- Se modificó el archivo "contacto/urls.py" para incluir la vista de detalles.
+- Se modificó el archivo "contacto/views.py" para incluir la vista de detalles.
+- Se modificó el archivo "main/settings.py" para incluir la app sorl-thumbnail.
